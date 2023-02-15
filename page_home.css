@@ -1,0 +1,61 @@
+.welcome-content {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 2;
+}
+
+#title-journey {
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 100px;
+}
+
+.education-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+  height: 300px;
+  width: 100%;
+  min-height: fit-content;
+  left:0px;
+  overflow: hidden;
+
+}
+
+.education-item-container {
+  height: 100%;
+  width: 40%;
+  min-height: fit-content;
+}
+
+#education-img1 {
+  min-height: 350px;
+  background-image: url("https://news.cgtn.com/news/2020-06-02/Hubei-universities-invite-students-back-in-batches-QZyvoEDsQM/img/1cab03e743624020a224cf4f164f6725/1cab03e743624020a224cf4f164f6725.png");
+  background-position: 50% 50%;
+}
+
+#education-img2 {
+  min-height: 350px;
+  background-image: url("https://priceschool.usc.edu/wp-content/uploads/2014/06/USC-campus-Hahn-plaza.jpg");
+  background-position: 50% 50%;
+}
+
+#education-img3 {
+  min-height: 350px;
+  background-image: url("https://www.alphagraphicsseattle.com/wp-content/uploads/id0405g-northeastern-university-39_blog.jpg");
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width: 480px) {
+
+  .welcome-content {
+    width: 90%;
+  }
+
+}

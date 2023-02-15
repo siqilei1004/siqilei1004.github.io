@@ -1,0 +1,240 @@
+body {
+  font-family: 'Open Sans',sans-serif;
+  height: 100%;
+  margin: 0px;
+}
+
+.background-purple {
+  background-image: url("https://images.pexels.com/photos/13356851/pexels-photo-13356851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  position: relative;
+  min-width: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 760px;
+}
+
+.background-purple-fixed-dark{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("https://images.pexels.com/photos/13356851/pexels-photo-13356851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover
+}
+
+.background-purple-fixed-normal{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.pexels.com/photos/13356851/pexels-photo-13356851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover
+}
+
+.background-blank {
+  min-height: 1207px;
+}
+
+/* common style */
+.font-15 {
+  font-size: 15px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-35 {
+  font-size: 25px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+.font-80 {
+  font-size: 80px;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.padding-small {
+  padding: 10px;
+}
+
+.padding-medium {
+  padding: 20px;
+}
+
+.padding-top-large {
+  padding-top: 60px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.color-purple {
+  color: #6f5187;
+}
+
+.color-light-purple {
+  color: #6b537f;
+}
+
+.color-brown {
+  color: #a76e66;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-white {
+  color: white;
+}
+/* common style */
+
+/* Start Navigation Bar */
+.header-container {
+  height: 95px;
+  width: 100%;
+}
+
+.main-header {
+    display: flex;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    background-color: #9A655D;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 150px;
+    z-index: 999;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-family:fantasy;
+    font-size: 2rem;
+    color: white;
+}
+
+.main-header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.5s ease 0s;
+}
+
+.main-header a:hover:not(.active) {
+    color: gold;
+}
+
+.active {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .background-purple-fixed-normal{
+    background-image: url("https://images.pexels.com/photos/13356851/pexels-photo-13356851.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    position: relative;
+    min-width: 100%;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 900px;
+  }
+
+  .header-container {
+    height: 150px;
+    width: 100%;
+  }
+
+  .main-header {
+    display: flex;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 140px;
+    background-color: #9A655D;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 150px;
+    z-index: 999;
+}
+
+#nav-title {
+  font-size: 1.5rem;
+
+}
+
+.main-header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 -200px;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  transition: all 0.5s ease 0s;
+}
+
+.main-header a:hover:not(.active) {
+  color: powderblue;
+  font-weight: 700;
+}
+
+.active {
+  color: powderblue;
+  font-weight: 700;
+}
+
+.font-80 {
+  font-size: 50px;
+}
+
+.font-15 {
+  font-size: 20px;
+}
+
+
+}
+
+/* End Navigation Bar */

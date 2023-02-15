@@ -1,0 +1,29 @@
+.photography-video {
+  height: 347px;
+  width: 616px;
+  margin: 300px -500px 0 auto;
+}
+
+.fun-text-container {
+margin: -236px calc(((100% - 1140px) / 2) + 725px) 0 calc(((100% - 1140px) / 2) + 21px);
+}
+
+.background-purple-fixed-dark p::first-letter {
+  font-size: 200%;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .photography-video {
+    height: auto;
+    width: 100%;
+    margin: 200px 0;
+  }
+
+  .fun-text-container {
+    margin:  -160px 0 0 0;
+    font-size: 20px;
+    }
+
+}

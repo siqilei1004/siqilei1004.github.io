@@ -1,0 +1,56 @@
+.project-container {
+  position: relative;
+  width: 80%;
+  height: 650px;
+  top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(128, 128, 128, 0.366);
+}
+
+.project-item-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+}
+
+.text-box {
+  height:100%;
+  width: 100%;
+  text-align: left;
+}
+
+.project-link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.project-link:hover {
+    color: gold;
+}
+
+@media screen and (max-width: 480px) {
+
+  .project-container {
+    position: relative;
+    width: 90%;
+    height: auto;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.366);
+  }
+
+  .project-item-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+}
